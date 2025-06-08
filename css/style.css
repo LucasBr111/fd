@@ -1,0 +1,556 @@
+/* Variables CSS */
+:root {
+    --color1: #0c577c; /* Azul oscuro principal */
+    --color2: #09486c; /* Azul oscuro un poco más vibrante */
+    --color3: #063a5c; /* Azul intermedio */
+    --color4: #032b4b; /* Azul más claro, casi grisáceo */
+    --color5: #001c3b; /* Azul muy oscuro, casi negro */
+
+    --text-light: #e0e0e0;
+    --text-dark: #333;
+    --background-light: #f8f9fa; /* Un fondo muy sutil */
+    --background-dark: var(--color5);
+    --transition: all 0.3s ease;
+    --shadow-light: rgba(0, 0, 0, 0.08);
+    --shadow-dark: rgba(0, 0, 0, 0.2);
+}
+
+/* Reset y estilos base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: var(--text-dark);
+    background-color: var(--background-light);
+    overflow-x: hidden; /* Evita el scroll horizontal */
+}
+
+/* Header - Usando clases de Bootstrap para navbar */
+.navbar {
+    background-color: var(--color5); /* Color más oscuro para el header */
+    padding: 1rem 0;
+    box-shadow: 0 4px 15px var(--shadow-dark);
+    transition: background-color var(--transition);
+}
+
+.navbar-brand h1 {
+    color: var(--text-light);
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.navbar-brand img {
+    filter: invert(100%); /* Para que el logo se vea bien en fondo oscuro */
+}
+
+.navbar-nav .nav-link {
+    color: var(--text-light);
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: var(--transition);
+    position: relative; /* Para el efecto de subrayado */
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: var(--color1); /* Un azul más claro al pasar el mouse */
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Efecto de subrayado animado */
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: var(--color1);
+    transition: all 0.3s ease-out;
+    transform: translateX(-50%);
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active::after {
+    width: 80%;
+}
+
+
+/* Main Content - padding superior para evitar que el header lo tape */
+main {
+    padding-top: 90px; /* Ajusta esto si el header cambia de altura */
+    min-height: calc(100vh - 80px); /* Ajuste para que el footer no se superponga */
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(3, 43, 75, 0.8), rgba(0, 28, 59, 0.9)), url('../assets/img/library-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 550px; /* Altura más generosa */
+    position: relative;
+    overflow: hidden; /* Oculta cualquier desbordamiento de las animaciones */
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at top left, var(--color1) 0%, transparent 40%),
+                radial-gradient(circle at bottom right, var(--color3) 0%, transparent 40%);
+    opacity: 0.3;
+    mix-blend-mode: overlay;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-shadow: 2px 2px 8px var(--shadow-dark);
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 2.5rem;
+}
+
+.custom-btn {
+    background-color: var(--color1);
+    border-color: var(--color1);
+    padding: 0.9rem 2.2rem;
+    font-size: 1.2rem;
+    border-radius: 50px; /* Botones más suaves */
+    transition: all 0.4s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.custom-btn:hover {
+    background-color: var(--color2);
+    border-color: var(--color2);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Animaciones de entrada (ejemplo con animate.css) */
+.animate__animated.animate__fadeInUp {
+    animation-duration: 1.2s;
+}
+.animate__animated.animate__fadeInDown {
+    animation-duration: 1s;
+}
+.animate__animated.animate__pulse {
+    animation-duration: 2s;
+}
+
+
+/* Sección de libros */
+.books-section h2 {
+    color: var(--color3);
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.books-section h2::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 80px;
+    height: 4px;
+    background-color: var(--color1);
+    border-radius: 2px;
+}
+
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2.5rem; /* Mayor espacio entre tarjetas */
+    justify-content: center; /* Centrar las tarjetas */
+}
+
+.book-card {
+    background: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-shadow: 0 8px 25px var(--shadow-light);
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer; /* Esto lo haremos clickeable en los botones, no en toda la card */
+    overflow: hidden;
+    /* Eliminamos min-height fijo para permitir que el contenido lo determine, */
+    /* o lo ajustamos si queremos una altura uniforme rígida, pero el flex-grow ya ayuda. */
+    /* min-height: 480px;  Mantener o ajustar si es necesario */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+}
+
+/* ... (Resto de estilos para .book-image, .book-title, .book-description) ... */
+
+.author {
+    font-style: italic;
+    color: var(--color4);
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem; /* Añadido margen inferior para separar del botón */
+}
+
+/* Estilos para el contenedor de los botones */
+.book-actions {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los botones se envuelvan si no hay espacio */
+    gap: 0.8rem; /* Espacio entre los botones */
+    margin-top: 1.5rem; /* Margen superior para separarlos de la descripción */
+    width: 100%; /* Ocupa todo el ancho de la tarjeta */
+    justify-content: center; /* Centra los botones horizontalmente */
+}
+
+/* Estilos base para los botones dentro de la tarjeta */
+.book-actions .btn {
+    font-size: 0.95rem;
+    padding: 0.7rem 1.2rem;
+    border-radius: 5px; /* Bordes ligeramente redondeados */
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: inline-flex; /* Permite icono y texto en línea */
+    align-items: center; /* Alinea icono y texto verticalmente */
+    text-decoration: none; /* Elimina el subrayado por defecto de los <a> */
+}
+
+/* Estilo para el botón "Leer Resumen" */
+.book-actions .btn-read-summary {
+    background-color: var(--color1); /* Tu color principal */
+    border-color: var(--color1);
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Sombra sutil */
+}
+
+.book-actions .btn-read-summary:hover {
+    background-color: var(--color2); /* Color más oscuro al pasar el mouse */
+    border-color: var(--color2);
+    transform: translateY(-2px); /* Pequeño efecto de elevación */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el botón "Descargar PDF" */
+.book-actions .btn-download {
+    background-color: var(--color4); /* Un color secundario de tu paleta */
+    border-color: var(--color4);
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.book-actions .btn-download:hover {
+    background-color: var(--color5); /* Color más oscuro al pasar el mouse */
+    border-color: var(--color5);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Iconos dentro de los botones */
+.book-actions .btn i {
+    margin-right: 0.5rem; /* Espacio entre el icono y el texto */
+}
+
+/* Media queries para los botones en pantallas pequeñas */
+@media (max-width: 576px) {
+    .book-actions {
+        flex-direction: column; /* Apila los botones verticalmente en móviles muy pequeños */
+        align-items: center; /* Centra los botones apilados */
+    }
+
+    .book-actions .btn {
+        width: 80%; /* Los botones ocupan más ancho */
+        max-width: 250px; /* Limita su ancho para que no se vean demasiado grandes */
+    }
+}
+.book-card:hover {
+    transform: translateY(-8px) scale(1.02); /* Efecto de elevación y ligero crecimiento */
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.book-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top right, var(--color1) 0%, transparent 50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 0;
+}
+
+.book-card:hover::before {
+    opacity: 0.05; /* Un overlay sutil al pasar el mouse */
+}
+
+.book-image {
+    width: 100%;
+    max-height: 250px; /* Altura máxima para las imágenes */
+    object-fit: contain; /* Asegura que la imagen completa sea visible */
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.book-card:hover .book-image {
+    transform: scale(1.03); /* Ligeramente más grande al pasar el mouse */
+}
+
+.book-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color2);
+    margin-bottom: 0.75rem;
+}
+
+.book-description {
+    color: #6a7f8a; /* Un gris azulado para la descripción */
+    font-size: 1rem;
+    line-height: 1.5;
+    flex-grow: 1; /* Para que ocupen el espacio disponible */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limita la descripción a 3 líneas */
+    -webkit-box-orient: vertical;
+    margin-bottom: 1rem;
+}
+
+.book-card .author {
+    font-style: italic;
+    color: var(--color4);
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: var(--color5);
+    color: var(--text-light);
+    padding: 4rem 0;
+    box-shadow: 0 -4px 15px var(--shadow-dark);
+}
+
+.footer-content {
+    padding-bottom: 2rem;
+}
+
+.footer-info h3 {
+    color: var(--color1);
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.footer-info p {
+    font-size: 0.95rem;
+    line-height: 1.8;
+    margin-bottom: 0.5rem;
+}
+
+.footer-bottom {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+/* Modal de detalles del libro */
+.modal-content {
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border: none;
+    background-color: var(--background-light);
+}
+
+.modal-header {
+    background-color: var(--color3);
+    color: white;
+    border-bottom: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 1.5rem;
+}
+
+.modal-title {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.modal-header .btn-close {
+    filter: invert(100%);
+    font-size: 1.2rem;
+}
+
+.modal-body {
+    padding: 2rem;
+    color: var(--text-dark);
+}
+
+#modalBookImage {
+    border: 2px solid var(--color4);
+    padding: 5px;
+}
+
+#modalBookTitle {
+    color: var(--color2);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.modal-body p {
+    font-size: 1.1rem;
+}
+
+.modal-body p span {
+    font-weight: 500;
+    color: var(--color3);
+}
+
+.modal-footer {
+    border-top: 1px solid #eee;
+    background-color: #f0f2f5;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 1.2rem;
+}
+
+.modal-footer .btn-secondary {
+    background-color: var(--color4);
+    border-color: var(--color4);
+    transition: var(--transition);
+}
+
+.modal-footer .btn-secondary:hover {
+    background-color: var(--color5);
+    border-color: var(--color5);
+}
+
+/* Responsive */
+@media (max-width: 991px) { /* Ajuste para navbar de Bootstrap */
+    .navbar-collapse {
+        background-color: var(--color5);
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 1rem;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 0.5rem;
+    }
+
+    .navbar-nav .nav-link::after {
+        display: none; /* Desactivar subrayado animado en móviles */
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 450px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1.1rem;
+    }
+
+    .custom-btn {
+        font-size: 1rem;
+        padding: 0.7rem 1.8rem;
+    }
+
+    .books-section h2 {
+        font-size: 2.2rem;
+    }
+
+    .books-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .book-card {
+        padding: 1rem;
+    }
+
+    .book-title {
+        font-size: 1.3rem;
+    }
+
+    .book-description {
+        font-size: 0.9rem;
+    }
+
+    .footer-info {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero {
+        height: 400px;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .navbar-brand h1 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Animaciones adicionales */
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.book-card {
+    animation: fadeInScale 0.6s ease-out forwards;
+    opacity: 0; /* Asegura que no se muestre antes de la animación */
+}
+
+/* Para aplicar la animación a cada tarjeta con un pequeño delay */
+.book-card:nth-child(1) { animation-delay: 0.1s; }
+.book-card:nth-child(2) { animation-delay: 0.2s; }
+.book-card:nth-child(3) { animation-delay: 0.3s; }
+.book-card:nth-child(4) { animation-delay: 0.4s; }
+.book-card:nth-child(5) { animation-delay: 0.5s; }
+.book-card:nth-child(6) { animation-delay: 0.6s; }
+/* Puedes seguir agregando más si tienes muchos libros */
