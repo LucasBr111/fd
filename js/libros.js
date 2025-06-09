@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const books = [
         {
             id: 1,
-            title: 'Trabajo por Proyectos en CSNats',
+            title: 'La enseñanza de la ciencia naturales basadas en proyectos',
             author: 'Autor por definir',
             year: 2015,
             genre: 'Educación, Ciencias Naturales',
@@ -81,6 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // URL de imagen actualizada para incrustación directa
             /* NO es la imagen, es la imagen del siguiente  */
            /*  image: 'https://lh3.googleusercontent.com/d/17SoXqKCPVUybttT8wYSapCB7qMp1kSKR', */
+            image: 'https://lh3.googleusercontent.com/d/1yZjEFFcBjffLu2x_a-mPeBfCdwIPY1Tz',
             description: 'Estrategias prácticas para la planificación y evaluación efectiva en el ambiente escolar.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1qYIBkjC4hjgfChShSXI_dgAdR7LSS1Ii',
             url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_6' // Por favor, actualiza este enlace
@@ -171,7 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
             genre: 'Educación, Ciencias Naturales',
             /* image: 'https://lh3.googleusercontent.com/d/1NjnpXVsZxO-3AqlEfMYNISVUk0MGzj-h', */
             // URL de imagen actualizada para incrustación directa
-            image: 'https://lh3.googleusercontent.com/d/1A6u3O7pE6KjvU0cn6g28jNYCSeI3TkGc',
+            image: 'https://lh3.googleusercontent.com/d/1Xc87DUgUo9aJ8X9cCyNISZckwjml9JHs',
             description: 'Material práctico para el diagnóstico y evaluación en ciencias naturales, con actividades experimentales.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1r7T9N1NUFrD4vYKz7W9LHN1o3D7CYvOQ',
             url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_13' // Por favor, actualiza este enlace
@@ -225,17 +226,29 @@ document.addEventListener('DOMContentLoaded', () => {
             url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_16' // Por favor, actualiza este enlace
         },
         {
-            id: 17,
-            title: 'Práctica Pedagógica y Formación de Maestros',
+            id: 18,
+            title: 'Procesos Didácticos',
             author: 'Raúl Barrantes Clavijo',
             year: 2024,
             genre: 'Educación, Práctica Pedagógica',
             // URL de imagen actualizada para incrustación directa
-            image: 'https://lh3.googleusercontent.com/d/1Ovn4tT_dImcOk4h86p1Fe4d_RkxpAcMH',
+            image: 'https://lh3.googleusercontent.com/d/1T5CbeLFN0FcTA-zQvYodnigAtOD7fSNI',
             description: 'Análisis comprensivo de la práctica pedagógica y su impacto en la formación integral de maestros.',
-            url_pdf: 'https://drive.google.com/uc?export=download&id=1Ovn4tT_dImcOk4h86p1Fe4d_RkxpAcMH',
+            url_pdf: 'https://drive.google.com/file/d/104wW_wlHLC1HMFGa2xc9xBaZbpAJH_dN/view?usp=drive_link',
             url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_17' // Por favor, actualiza este enlace
-        }
+        },        {
+            id: 19,
+            title: 'Transformando las prácticas de evaluación a través del trabajo colaborativa',
+            author: 'Raúl Barrantes Clavijo',
+            year: 2024,
+            genre: 'Educación, Práctica Pedagógica',
+            // URL de imagen actualizada para incrustación directa
+            image: 'https://lh3.googleusercontent.com/d/1uPLOjCnT5KursF_e0wQwbNW1W75IHyRh',
+            description: 'Análisis comprensivo de la práctica pedagógica y su impacto en la formación integral de maestros.',
+            url_pdf: 'https://drive.google.com/file/d/1fUH2L4o8Ws-_8E_HeMRSdUur_bEvZ9xD/view?usp=drive_link',
+            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_17' // Por favor, actualiza este enlace
+        },
+        
     ];
 
     function loadBooks() {
