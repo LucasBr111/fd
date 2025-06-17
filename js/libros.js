@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://lh3.googleusercontent.com/d/1GyfywlBiAQbEXe-JglBk73wIYlGJLCYW',
             description: 'Metodología para el trabajo por proyectos en Ciencias Naturales, enfocado en el aprendizaje activo y la investigación estudiantil.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=13IwKo-veY_qEgegvl_MPcOxH528LiXqh',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_1' // Por favor, actualiza este enlace
+            url_resumen: 'https://ensenanza-ciencias-proye-tgtg85h.gamma.site/' 
         },
         {
             id: 2,
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://lh3.googleusercontent.com/d/1dKETG6708Nd8twIIxBx0GlhkUFwx7Kch',
             description: 'Enfoques metodológicos modernos para la educación contemporánea.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1WMpeUvL_pRLvvw6HgIvZYIJB-JjE4DpB',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_2' // Por favor, actualiza este enlace
+            url_resumen: 'https://el-juego-en-la-formacion-64u1utg.gamma.site/' 
         },
         {
             id: 3,
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://lh3.googleusercontent.com/d/1WnGI4vumZfmf4hLfa6t2GTE9wcW5dXyB',
             description: 'Selección de cuentos para el desarrollo de la comprensión lectora y el análisis literario.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=18LjPe_0FThCsBwjGBWVHyJTgUFFR2jVQ',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_3' // Por favor, actualiza este enlace
+            url_resumen: 'https://antologia-literaria-y2urvlc.gamma.site/' 
         },
         {
             id: 4,
