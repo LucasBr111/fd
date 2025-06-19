@@ -18,11 +18,10 @@ document.addEventListener('DOMContentLoaded', () => {
             author: 'Autor por definir',
             year: 2015,
             genre: 'Educación, Ciencias Naturales',
-            // URL de imagen actualizada para incrustación directa
             image: 'https://lh3.googleusercontent.com/d/1GyfywlBiAQbEXe-JglBk73wIYlGJLCYW',
             description: 'Metodología para el trabajo por proyectos en Ciencias Naturales, enfocado en el aprendizaje activo y la investigación estudiantil.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=13IwKo-veY_qEgegvl_MPcOxH528LiXqh',
-            url_resumen: 'https://ensenanza-ciencias-proye-tgtg85h.gamma.site/' 
+            url_resumen: 'https://ensenanza-ciencias-proye-tgtg85h.gamma.site/'
         },
         {
             id: 2,
@@ -30,11 +29,10 @@ document.addEventListener('DOMContentLoaded', () => {
             author: 'Autor por definir',
             year: 2024,
             genre: 'Educación, Metodología',
-            // URL de imagen actualizada para incrustación directa
             image: 'https://lh3.googleusercontent.com/d/1dKETG6708Nd8twIIxBx0GlhkUFwx7Kch',
             description: 'Enfoques metodológicos modernos para la educación contemporánea.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1WMpeUvL_pRLvvw6HgIvZYIJB-JjE4DpB',
-            url_resumen: 'https://el-juego-en-la-formacion-64u1utg.gamma.site/' 
+            url_resumen: 'https://el-juego-en-la-formacion-64u1utg.gamma.site/'
         },
         {
             id: 3,
@@ -42,11 +40,10 @@ document.addEventListener('DOMContentLoaded', () => {
             author: 'Varios Autores',
             year: 2024,
             genre: 'Literatura, Educación',
-            // URL de imagen actualizada para incrustación directa
             image: 'https://lh3.googleusercontent.com/d/1WnGI4vumZfmf4hLfa6t2GTE9wcW5dXyB',
             description: 'Selección de cuentos para el desarrollo de la comprensión lectora y el análisis literario.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=18LjPe_0FThCsBwjGBWVHyJTgUFFR2jVQ',
-            url_resumen: 'https://antologia-literaria-y2urvlc.gamma.site/' 
+            url_resumen: 'https://antologia-literaria-y2urvlc.gamma.site/'
         },
         {
             id: 4,
@@ -54,7 +51,6 @@ document.addEventListener('DOMContentLoaded', () => {
             author: 'Díaz, Autor',
             year: 2024,
             genre: 'Educación, Tecnología',
-            // URL de imagen actualizada para incrustación directa
             image: 'https://lh3.googleusercontent.com/d/1Q8a0DIOcwLmnF1skVXv0682Oe2mdHlpP',
             description: 'Guía para la integración de las Tecnologías de la Información y Comunicación en la educación superior.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1iR3opC61OUkCwCqxpQwlk1iJtpP0Hywj',
@@ -66,7 +62,6 @@ document.addEventListener('DOMContentLoaded', () => {
             author: 'Audífon de Haro',
             year: 2016,
             genre: 'Literatura, Teoría Literaria',
-            // URL de imagen actualizada para incrustación directa
             image: 'https://lh3.googleusercontent.com/d/1Zl2mzhSe_CDNPoGHAh952bipJEOd9LYm',
             description: 'Análisis profundo de la teoría de los géneros literarios y su aplicación en la enseñanza de la literatura.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1aUhfJzEBGxlTiFVzwvHZWTorpZux2R2o',
@@ -78,13 +73,10 @@ document.addEventListener('DOMContentLoaded', () => {
             author: 'Brío, C.',
             year: 2024,
             genre: 'Educación, Planificación',
-            // URL de imagen actualizada para incrustación directa
-            /* NO es la imagen, es la imagen del siguiente  */
-           /*  image: 'https://lh3.googleusercontent.com/d/17SoXqKCPVUybttT8wYSapCB7qMp1kSKR', */
             image: 'https://lh3.googleusercontent.com/d/1yZjEFFcBjffLu2x_a-mPeBfCdwIPY1Tz',
             description: 'Estrategias prácticas para la planificación y evaluación efectiva en el ambiente escolar.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1qYIBkjC4hjgfChShSXI_dgAdR7LSS1Ii',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_6' 
+            url_resumen: 'https://guia-para-docentes-67x398e.gamma.site/' 
         },
         {
             id: 7,
@@ -92,9 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
             author: 'Autor por definir',
             year: 2024,
             genre: 'Educación, Tecnología',
-            // URL de imagen actualizada para incrustación directa
             image: 'https://lh3.googleusercontent.com/d/17SoXqKCPVUybttT8wYSapCB7qMp1kSKR',
-           
             description: 'Compendio de herramientas digitales útiles para la educación moderna y su implementación práctica.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1esNY8NRO_Zi7S1skuMUvbDsnHYMbI2cV',
             url_resumen: 'https://catalogo-herramientas-di-th9arw0.gamma.site/' 
@@ -105,12 +95,10 @@ document.addEventListener('DOMContentLoaded', () => {
             author: 'COM - Waldorf',
             year: 2024,
             genre: 'Educación, Pedagogía Waldorf',
-            // URL de imagen actualizada para incrustación directa
             image: 'https://lh3.googleusercontent.com/d/1VL8pw0K4WxlOranyE9YmfXyaee1-kSF0',
-           
             description: 'Metodología Waldorf centrada en el desarrollo de la comunicación y la escucha activa en el proceso educativo.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=151E20vYbX4MTua_ka9CYJT2DGnbCrhs7',
-            url_resumen: '' 
+            url_resumen: 'https://ensenanza-lengua-oral-b05pp6c.gamma.site/' 
         },
         {
             id: 9,
@@ -119,8 +107,6 @@ document.addEventListener('DOMContentLoaded', () => {
             year: 2024,
             genre: 'Educación, Futuro',
             image: 'https://lh3.googleusercontent.com/d/1HhcmW2UXCfymqo5TD25oM5cbQmNJ3Nkh',
-            // URL de imagen actualizada para incrustación directa
-           
             description: 'Perspectivas y estrategias para enfrentar los desafíos educativos del siglo XXI.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1W9vsN5r6lLh8bWlwUkDWMrpSLRys4Z0O',
             url_resumen: 'https://transformacion-digital-e-1jesp1f.gamma.site/' 
@@ -132,8 +118,6 @@ document.addEventListener('DOMContentLoaded', () => {
             year: 2024,
             genre: 'Educación, Motivación',
             image: 'https://lh3.googleusercontent.com/d/1xBJN4111d58wPam9sU_2MzfvGpzo3Nqo',
-            // URL de imagen actualizada para incrustación directa
-           
             description: 'Estrategias y técnicas para motivar y trabajar con estudiantes desmotivados o reticentes al aprendizaje.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1OwZsJ9Jt2aLu8B23yMdjRP8wOOKIK_EY',
             url_resumen: 'https://ensenar-a-querer-aprende-2lcddfa.gamma.site/'
@@ -145,8 +129,6 @@ document.addEventListener('DOMContentLoaded', () => {
             year: 2024,
             genre: 'Educación, Literatura',
             image: 'https://lh3.googleusercontent.com/d/1UKb_oaqccdJ8oU-vc8WRran2p3fscWlN',
-            // URL de imagen actualizada para incrustación directa
-            
             description: 'Metodologías especializadas para la enseñanza del lenguaje y la literatura en diferentes niveles educativos.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1qwL6V0DleHv0TvIM0CNtKmtDclPXiI_a',
             url_resumen: 'https://guia-para-la-oralidad-bz8b37o.gamma.site/' 
@@ -158,11 +140,9 @@ document.addEventListener('DOMContentLoaded', () => {
             year: 2024,
             genre: 'Educación, Formación Docente',
             image: 'https://lh3.googleusercontent.com/d/1_vRHXi9Kt4nAsmrrrEaTQhCowufD6s86',
-            // URL de imagen actualizada para incrustación directa
-         
             description: 'Análisis prospectivo sobre cómo evolucionarán las escuelas y la formación de docentes en el futuro cercano.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1M_jKoJx65lySxfUM7jQxNqT9JyQqefCv',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_12' // Por favor, actualiza este enlace
+            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_12'
         },
         {
             id: 13,
@@ -170,12 +150,10 @@ document.addEventListener('DOMContentLoaded', () => {
             author: 'Autor por definir',
             year: 2024,
             genre: 'Educación, Ciencias Naturales',
-            /* image: 'https://lh3.googleusercontent.com/d/1NjnpXVsZxO-3AqlEfMYNISVUk0MGzj-h', */
-            // URL de imagen actualizada para incrustación directa
             image: 'https://lh3.googleusercontent.com/d/1Xc87DUgUo9aJ8X9cCyNISZckwjml9JHs',
             description: 'Material práctico para el diagnóstico y evaluación en ciencias naturales, con actividades experimentales.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1r7T9N1NUFrD4vYKz7W9LHN1o3D7CYvOQ',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_13' // Por favor, actualiza este enlace
+            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_13'
         },
         {
             id: 14,
@@ -183,11 +161,10 @@ document.addEventListener('DOMContentLoaded', () => {
             author: 'Carrasco',
             year: 2024,
             genre: 'Educación, Metodología',
-            // URL de imagen actualizada para incrustación directa (usa la misma URL del PDF si es la imagen de portada)
             image: 'https://lh3.googleusercontent.com/d/1PGIaPPWjjIu4NzFCDp66VHBn9WGhtHFm',
             description: 'Reflexiones y propuestas para la enseñanza en el contexto educativo actual.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1PGIaPPWjjIu4NzFCDp66VHBn9WGhtHFm',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_14' // Por favor, actualiza este enlace
+            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_14'
         },
         {
             id: 15,
@@ -195,35 +172,32 @@ document.addEventListener('DOMContentLoaded', () => {
             author: 'Tricot',
             year: 2024,
             genre: 'Educación, Innovación',
-            // URL de imagen actualizada para incrustación directa (usa la misma URL del PDF si es la imagen de portada)
             image: 'https://lh3.googleusercontent.com/d/1lGuqwgCbCu_lil4AmY2pSkN3xSdsQ3AT',
             description: 'Guía práctica para implementar innovaciones efectivas en el ámbito educativo.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1lGuqwgCbCu_lil4AmY2pSkN3xSdsQ3AT',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_14_A' // Por favor, actualiza este enlace
+            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_14_A'
         },
         {
-            id: 166, // Nota: Considera cambiar este ID si es posible para mantener una secuencia lógica (e.g., a 15, si el anterior es 14)
+            id: 16,
             title: 'Pedagogía del Juego - Traducción al Español',
             author: 'Autor por definir',
             year: 2024,
             genre: 'Educación, Pedagogía Lúdica',
-            // URL de imagen actualizada para incrustación directa (usa la misma URL del PDF si es la imagen de portada)
             image: 'https://lh3.googleusercontent.com/d/1wOaI7NlrqP0EYSF4LCmuTH3vWQLiuJP4',
             description: 'Enfoques pedagógicos basados en el juego como herramienta fundamental para el aprendizaje.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1wOaI7NlrqP0EYSF4LCmuTH3vWQLiuJP4',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_15' // Por favor, actualiza este enlace
+            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_15'
         },
         {
-            id: 16, // Nota: Si tienes un ID 166, este 16 puede causar confusión. Verifica si es intencional.
+            id: 17, // ID corregido de 16 a 17 para mantener la secuencia
             title: 'Pensar la Formación de Maestros Hoy',
             author: 'María Cristina Martínez Pineda et al.',
             year: 2024,
             genre: 'Educación, Formación Docente',
-            // URL de imagen actualizada para incrustación directa (usa la misma URL del PDF si es la imagen de portada)
             image: 'https://lh3.googleusercontent.com/d/1IZJkLnboN3dlVT0zChKjF34ORa09O3bU',
             description: 'Propuesta pedagógica desde la experiencia para repensar la formación de maestros en la actualidad.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1IZJkLnboN3dlVT0zChKjF34ORa09O3bU',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_16' // Por favor, actualiza este enlace
+            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_16'
         },
         {
             id: 18,
@@ -231,24 +205,99 @@ document.addEventListener('DOMContentLoaded', () => {
             author: 'Raúl Barrantes Clavijo',
             year: 2024,
             genre: 'Educación, Práctica Pedagógica',
-            // URL de imagen actualizada para incrustación directa
             image: 'https://lh3.googleusercontent.com/d/1T5CbeLFN0FcTA-zQvYodnigAtOD7fSNI',
             description: 'Análisis comprensivo de la práctica pedagógica y su impacto en la formación integral de maestros.',
-            url_pdf: 'https://drive.google.com/file/d/104wW_wlHLC1HMFGa2xc9xBaZbpAJH_dN/view?usp=drive_link',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_17' // Por favor, actualiza este enlace
-        },        {
+            url_pdf: 'https://drive.google.com/uc?export=download&id=104wW_wlHLC1HMFGa2xc9xBaZbpAJH_dN', // Enlace estandarizado
+            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_17'
+        },
+        {
             id: 19,
             title: 'Transformando las prácticas de evaluación a través del trabajo colaborativa',
             author: 'Raúl Barrantes Clavijo',
             year: 2024,
             genre: 'Educación, Práctica Pedagógica',
-            // URL de imagen actualizada para incrustación directa
             image: 'https://lh3.googleusercontent.com/d/1uPLOjCnT5KursF_e0wQwbNW1W75IHyRh',
             description: 'Análisis comprensivo de la práctica pedagógica y su impacto en la formación integral de maestros.',
-            url_pdf: 'https://drive.google.com/file/d/1fUH2L4o8Ws-_8E_HeMRSdUur_bEvZ9xD/view?usp=drive_link',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_17' // Por favor, actualiza este enlace
+            url_pdf: 'https://drive.google.com/uc?export=download&id=1fUH2L4o8Ws-_8E_HeMRSdUur_bEvZ9xD', // Enlace estandarizado
+            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_17'
         },
-        
+        {
+            id: 20,
+            title: 'Enfoques pedagógicos contemporáneos y posmodernos.',
+            author: 'Sara Farfán Cruz',
+            year: 2024,
+            genre: 'Educación, Pedagogía',
+            image: 'https://lh3.googleusercontent.com/d/1yTOIIX-MmwNfBEtFVwfx6ex-0syDEsPP',
+            description: 'Exploración de los enfoques pedagógicos contemporáneos y posmodernos, con énfasis en su aplicación práctica.',
+            url_pdf: 'https://drive.google.com/uc?export=download&id=1RZdaGS7m1p1-o8rC_bUAmkxwuW3-lk4h', // Enlace estandarizado
+            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_18'
+        },
+        {
+            id: 21,
+            title: 'Mini manual de Herramientas Google para Educación',
+            author: 'Autor por definir',
+            year: 2024,
+            genre: 'Educación, Tecnología',
+            image: 'https://lh3.googleusercontent.com/d/1S0tIQndWJ6OsLlzCEJ99jFlyJGc96Gr3',
+            description: 'Guía práctica sobre el uso de herramientas Google en el ámbito educativo, facilitando la integración tecnológica en el aula.',
+            url_pdf: 'https://drive.google.com/uc?export=download&id=1QPOYZjQdCk86tcI1n95HMCG6tDRKRkbg', // Enlace estandarizado
+            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_19'
+        },
+        {
+            id: 22,
+            title: 'Modelos pedagógicos y teorías del aprendizaje',
+            author: 'Alexander Ortiz Ocaña',
+            year: 2024,
+            genre: 'Educación, Pedagogía',
+            image: 'https://lh3.googleusercontent.com/d/1LAxHIq6CiRzAx45Qk0fve2yeNA7Vnc9R',
+            description: 'Análisis de los modelos pedagógicos y teorías del aprendizaje más relevantes en la educación contemporánea, con aplicaciones prácticas.',
+            url_pdf: 'https://drive.google.com/uc?export=download&id=1A2CKyIh1IltQAtPAg2v0rlXxuJOhPrkz', // Enlace estandarizado
+            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_20'
+        },
+        {
+            id: 23,
+            title: 'Pedagogía de la Tolerancia',
+            author: 'Paulo Freire',
+            year: 2024,
+            genre: 'Educación, Filosofía',
+            image: 'https://lh3.googleusercontent.com/d/1RUu8CpRpUTz7wASqN67t4WOUHA7SUadT',
+            description: 'Reflexiones de Paulo Freire sobre la importancia de la tolerancia en la educación y su impacto en la formación integral del individuo.',
+            url_pdf: 'https://drive.google.com/uc?export=download&id=1WwLwtfIVhz_vRM5mfcGbI_ldOQySzTTc', // Enlace estandarizado
+            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_21'
+        },
+        {
+            id: 24,
+            title: 'Metodología de la Gestión Curricular',
+            author: 'Tobón',
+            year: 2024,
+            genre: 'Educación, Currículo',
+            image: 'https://lh3.googleusercontent.com/d/13TJsdE4WlrqTuq5gAVgTJBLxTjnp4OAh',
+            description: 'Enfoques y estrategias para la gestión curricular efectiva, promoviendo una educación de calidad y pertinente.',
+            url_pdf: 'https://drive.google.com/uc?export=download&id=19imIiJcfkLNMoSWMvCQ5CttXDCLCRpbD', // Enlace estandarizado
+            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_22'
+        },
+        {
+            id: 25,
+            title: 'El Acompañamiento Pedagógico',
+            author: 'Taveras',
+            year: 2024,
+            genre: 'Educación, Acompañamiento',
+            image: 'https://lh3.googleusercontent.com/d/1zPI1gA7CA6v2_gaalxLL8IexVhbpdq2f',
+            description: 'Estrategias y metodologías para el acompañamiento pedagógico efectivo, centrado en el desarrollo profesional docente y la mejora continua.',
+            url_pdf: 'https://drive.google.com/uc?export=download&id=1Id3ClIu5ZOqJMy-HcL8OgILzCfSxZcUH', // Enlace estandarizado
+            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_23'
+        },
+        {
+            id: 26,
+            title: 'Secuencias Didácticas. Aprendizaje y Evaluación de Competencias',
+            author: 'Sergio Tobón Tobón, Julio Herminio Pimienta Rico y Juan Antonio García Fraile',
+            year: 2024,
+            genre: 'Educación, Didáctica',
+            image: 'https://lh3.googleusercontent.com/d/1Q6zg-FW8B74pxCfg8jBGAJ36iLHyuKTn',
+            description: 'Guía práctica sobre la elaboración de secuencias didácticas enfocadas en el aprendizaje y evaluación de competencias en el aula.',
+            url_pdf: 'https://drive.google.com/uc?export=download&id=1QGQnUMks9X7xkwVlFFQQJ9gWkPfvBdF4', // Enlace estandarizado
+            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_24'
+        }
     ];
 
     function loadBooks() {
