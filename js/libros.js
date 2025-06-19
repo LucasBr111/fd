@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://lh3.googleusercontent.com/d/1Q8a0DIOcwLmnF1skVXv0682Oe2mdHlpP',
             description: 'Guía para la integración de las Tecnologías de la Información y Comunicación en la educación superior.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1iR3opC61OUkCwCqxpQwlk1iJtpP0Hywj',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_4' // Por favor, actualiza este enlace
+            url_resumen: 'https://tic-ensenanza-7hkzmwz.gamma.site/'
         },
         {
             id: 5,
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://lh3.googleusercontent.com/d/1Zl2mzhSe_CDNPoGHAh952bipJEOd9LYm',
             description: 'Análisis profundo de la teoría de los géneros literarios y su aplicación en la enseñanza de la literatura.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1aUhfJzEBGxlTiFVzwvHZWTorpZux2R2o',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_5' // Por favor, actualiza este enlace
+            url_resumen: 'https://teoria-generos-literario-9j85q07.gamma.site/' 
         },
         {
             id: 6,
@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://lh3.googleusercontent.com/d/1yZjEFFcBjffLu2x_a-mPeBfCdwIPY1Tz',
             description: 'Estrategias prácticas para la planificación y evaluación efectiva en el ambiente escolar.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1qYIBkjC4hjgfChShSXI_dgAdR7LSS1Ii',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_6' // Por favor, actualiza este enlace
+            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_6' 
         },
         {
             id: 7,
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
            
             description: 'Compendio de herramientas digitales útiles para la educación moderna y su implementación práctica.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1esNY8NRO_Zi7S1skuMUvbDsnHYMbI2cV',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_7' // Por favor, actualiza este enlace
+            url_resumen: 'https://catalogo-herramientas-di-th9arw0.gamma.site/' 
         },
         {
             id: 8,
@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
            
             description: 'Metodología Waldorf centrada en el desarrollo de la comunicación y la escucha activa en el proceso educativo.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=151E20vYbX4MTua_ka9CYJT2DGnbCrhs7',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_8' // Por favor, actualiza este enlace
+            url_resumen: '' 
         },
         {
             id: 9,
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
            
             description: 'Perspectivas y estrategias para enfrentar los desafíos educativos del siglo XXI.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1W9vsN5r6lLh8bWlwUkDWMrpSLRys4Z0O',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_9' // Por favor, actualiza este enlace
+            url_resumen: 'https://transformacion-digital-e-1jesp1f.gamma.site/' 
         },
         {
             id: 10,
@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
            
             description: 'Estrategias y técnicas para motivar y trabajar con estudiantes desmotivados o reticentes al aprendizaje.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1OwZsJ9Jt2aLu8B23yMdjRP8wOOKIK_EY',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_10' // Por favor, actualiza este enlace
+            url_resumen: 'https://ensenar-a-querer-aprende-2lcddfa.gamma.site/'
         },
         {
             id: 11,
@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             description: 'Metodologías especializadas para la enseñanza del lenguaje y la literatura en diferentes niveles educativos.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1qwL6V0DleHv0TvIM0CNtKmtDclPXiI_a',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_11' // Por favor, actualiza este enlace
+            url_resumen: 'https://guia-para-la-oralidad-bz8b37o.gamma.site/' 
         },
         {
             id: 12,
