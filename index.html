@@ -28,7 +28,9 @@
                             <a class="nav-link" href="#libros">Catálogo</a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://gamma.app/create" target="_blank" class="btn btn-primary me-lg-2 mt-2 mt-lg-0">Crear Resumen</a>
+                            <a href="#" class="btn btn-primary me-lg-2 mt-2 mt-lg-0" data-bs-toggle="modal" data-bs-target="#createSummaryModal">
+                                <i class="fas fa-magic me-2"></i>Crear Resumen
+                            </a>
                         </li>
                         <li class="nav-item">
                             <a href="upload-form.html" class="btn btn-info mt-2 mt-lg-0">
@@ -143,6 +145,69 @@
             </div>
         </div>
     </div>
+    <div class="modal fade" id="createSummaryModal" tabindex="-1" aria-labelledby="createSummaryModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content summary-modal-content">
+                <div class="modal-header summary-modal-header text-white">
+                    <h5 class="modal-title" id="createSummaryModalLabel">
+                        <i class="fas fa-lightbulb me-2"></i>Guía: Crea un Resumen Mágico de tu Libro
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body summary-modal-body">
+                    <div class="row g-4">
+                        <div class="col-md-6 col-lg-4 d-flex">
+                            <div class="summary-step-card flex-grow-1">
+                                <div class="summary-step-icon"><i class="fas fa-robot"></i></div>
+                                <h6 class="summary-step-title">Paso 1: ¡El Prompt Especializado!</h6>
+                                <p class="summary-step-description">Usa este prompt optimizado para obtener los mejores resúmenes de tus PDFs.</p>
+                                <div class="card bg-dark text-white p-3 mb-3 prompt-container">
+                                    <code id="summaryPrompt" class="d-block text-start">
+                                        "Actúa como un experto en análisis de contenido. Vas a resumir un PDF de un libro. Tu objetivo es extraer las ideas clave, argumentos principales y conclusiones, presentándolos de forma concisa y clara. El resumen debe ser objetivo, cubriendo los puntos más relevantes sin añadir opiniones personales. Proporciona una visión general completa que permita entender el libro sin leerlo por completo. Mantén un tono formal y académico. Asegúrate de incluir los nombres de los autores principales citados si son relevantes y las fechas o contextos históricos importantes. El resumen debe tener entre 500 y 700 palabras."
+                                    </code>
+                                    <button class="btn btn-outline-info btn-sm mt-2" onclick="copyToClipboard('summaryPrompt', this)">
+                                        <i class="fas fa-copy me-2"></i>Copiar Prompt
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 d-flex">
+                            <div class="summary-step-card flex-grow-1">
+                                <div class="summary-step-icon"><i class="fas fa-file-pdf"></i></div>
+                                <h6 class="summary-step-title">Paso 2: PDF a ChatGPT</h6>
+                                <p class="summary-step-description">Ahora, ve a ChatGPT (o tu IA preferida) y carga el archivo PDF del libro que quieres resumir.</p>
+                                <p class="summary-step-detail">¡Asegúrate de haber copiado el prompt del Paso 1 antes de esto! Pega el prompt en la conversación con la IA y luego sube tu PDF.</p>
+                                <p class="summary-step-detail">Espera a que la IA procese el PDF y genere el resumen basado en el prompt que le diste.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 col-lg-4 d-flex">
+                            <div class="summary-step-card flex-grow-1">
+                                <div class="summary-step-icon"><i class="fas fa-cube"></i></div>
+                                <h6 class="summary-step-title">Paso 3: ¡Transforma en Gamma!</h6>
+                                <p class="summary-step-description">Una vez que tengas el resumen en texto, es hora de darle vida en Gamma.app.</p>
+                                <ul class="list-unstyled text-start summary-list-icons">
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Copia el texto del resumen generado por la IA.</li>
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Ve a Gamma.app y usa la opción "Crear nuevo" o "New from text".</li>
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Pega tu resumen y sigue los pasos para crear una presentación interactiva.</li>
+                                    <li><i class="fas fa-check-circle text-success me-2"></i>Puedes también usar la opción de "Cargar con enlace" si Gamma lo permite, para enlazar directamente tu PDF o el resumen si lo tienes en una URL pública.</li>
+                                </ul>
+                                <p class="summary-step-detail">Cuando termines, tendrás un resumen visualmente atractivo y compartible.</p>
+                                <a href="https://gamma.app/create" target="_blank" class="btn btn-success mt-3 w-100">
+                                    <i class="fas fa-external-link-alt me-2"></i>Ir a Gamma.app/create
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer summary-modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Entendido</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/libros.js"></script>
@@ -163,6 +228,28 @@
                     }
                 });
             }
+            function copyToClipboard(elementId, button) {
+                var copyText = document.getElementById(elementId);
+                var textArea = document.createElement("textarea");
+                textArea.value = copyText.textContent;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand("copy");
+                textArea.remove();
+
+                var originalText = button.innerHTML;
+                button.innerHTML = '<i class="fas fa-check me-2"></i>¡Copiado!';
+                button.classList.remove('btn-outline-info');
+                button.classList.add('btn-info');
+
+                setTimeout(() => {
+                    button.innerHTML = originalText;
+                    button.classList.remove('btn-info');
+                    button.classList.add('btn-outline-info');
+                }, 2000);
+            }
+            window.copyToClipboard = copyToClipboard;
+        });
 
             // También cierra el offcanvas si se hace clic en cualquier enlace dentro de él
             document.querySelectorAll('#offcanvasNavbar .nav-link, #offcanvasNavbar .btn').forEach(link => {

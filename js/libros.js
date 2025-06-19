@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://lh3.googleusercontent.com/d/1UKb_oaqccdJ8oU-vc8WRran2p3fscWlN',
             description: 'Metodologías especializadas para la enseñanza del lenguaje y la literatura en diferentes niveles educativos.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1qwL6V0DleHv0TvIM0CNtKmtDclPXiI_a',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_11'
+            url_resumen: 'https://didactica-lenguaje-liter-dd4vzc0.gamma.site/'
         },
         {
             id: 12,
@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://lh3.googleusercontent.com/d/1_vRHXi9Kt4nAsmrrrEaTQhCowufD6s86',
             description: 'Análisis prospectivo sobre cómo evolucionarán las escuelas y la formación de docentes en el futuro cercano.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1M_jKoJx65lySxfUM7jQxNqT9JyQqefCv',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_12'
+            url_resumen: 'https://el-futuro-de-las-escuela-8w0o4dx.gamma.site/'
         },
         {
             id: 13,
@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://lh3.googleusercontent.com/d/1Xc87DUgUo9aJ8X9cCyNISZckwjml9JHs',
             description: 'Material práctico para el diagnóstico y evaluación en ciencias naturales, con actividades experimentales.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1r7T9N1NUFrD4vYKz7W9LHN1o3D7CYvOQ',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_13'
+            url_resumen: 'https://practica-pedagogica-3t73u77.gamma.site/'
         },
         {
             id: 14,
@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://lh3.googleusercontent.com/d/1PGIaPPWjjIu4NzFCDp66VHBn9WGhtHFm',
             description: 'Reflexiones y propuestas para la enseñanza en el contexto educativo actual.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1PGIaPPWjjIu4NzFCDp66VHBn9WGhtHFm',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_14'
+            url_resumen: 'https://ensenar-hoy-k3skhr4.gamma.site/'
         },
         {
             id: 15,
@@ -175,7 +175,7 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://lh3.googleusercontent.com/d/1lGuqwgCbCu_lil4AmY2pSkN3xSdsQ3AT',
             description: 'Guía práctica para implementar innovaciones efectivas en el ámbito educativo.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1lGuqwgCbCu_lil4AmY2pSkN3xSdsQ3AT',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_14_A'
+            url_resumen: 'https://innovar-en-educacion-xmanh7a.gamma.site/'
         },
         {
             id: 16,
@@ -186,10 +186,10 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://lh3.googleusercontent.com/d/1wOaI7NlrqP0EYSF4LCmuTH3vWQLiuJP4',
             description: 'Enfoques pedagógicos basados en el juego como herramienta fundamental para el aprendizaje.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1wOaI7NlrqP0EYSF4LCmuTH3vWQLiuJP4',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_15'
+            url_resumen: 'https://pedagogia-del-juego-d2tc0xk.gamma.site/'
         },
         {
-            id: 17, // ID corregido de 16 a 17 para mantener la secuencia
+            id: 17,
             title: 'Pensar la Formación de Maestros Hoy',
             author: 'María Cristina Martínez Pineda et al.',
             year: 2024,
@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'https://lh3.googleusercontent.com/d/1IZJkLnboN3dlVT0zChKjF34ORa09O3bU',
             description: 'Propuesta pedagógica desde la experiencia para repensar la formación de maestros en la actualidad.',
             url_pdf: 'https://drive.google.com/uc?export=download&id=1IZJkLnboN3dlVT0zChKjF34ORa09O3bU',
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_16'
+            url_resumen: 'https://repensar-formacion-docen-q3dd39y.gamma.site/'
         },
         {
             id: 18,
@@ -207,8 +207,8 @@ document.addEventListener('DOMContentLoaded', () => {
             genre: 'Educación, Práctica Pedagógica',
             image: 'https://lh3.googleusercontent.com/d/1T5CbeLFN0FcTA-zQvYodnigAtOD7fSNI',
             description: 'Análisis comprensivo de la práctica pedagógica y su impacto en la formación integral de maestros.',
-            url_pdf: 'https://drive.google.com/uc?export=download&id=104wW_wlHLC1HMFGa2xc9xBaZbpAJH_dN', // Enlace estandarizado
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_17'
+            url_pdf: 'https://drive.google.com/uc?export=download&id=104wW_wlHLC1HMFGa2xc9xBaZbpAJH_dN',
+            url_resumen: 'https://dominando-procesos-didac-dz5s3y5.gamma.site/'
         },
         {
             id: 19,
@@ -218,8 +218,8 @@ document.addEventListener('DOMContentLoaded', () => {
             genre: 'Educación, Práctica Pedagógica',
             image: 'https://lh3.googleusercontent.com/d/1uPLOjCnT5KursF_e0wQwbNW1W75IHyRh',
             description: 'Análisis comprensivo de la práctica pedagógica y su impacto en la formación integral de maestros.',
-            url_pdf: 'https://drive.google.com/uc?export=download&id=1fUH2L4o8Ws-_8E_HeMRSdUur_bEvZ9xD', // Enlace estandarizado
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_17'
+            url_pdf: 'https://drive.google.com/uc?export=download&id=1fUH2L4o8Ws-_8E_HeMRSdUur_bEvZ9xD',
+            url_resumen: 'https://transformando-evaluacion-w2vxt91.gamma.site/'
         },
         {
             id: 20,
@@ -229,8 +229,8 @@ document.addEventListener('DOMContentLoaded', () => {
             genre: 'Educación, Pedagogía',
             image: 'https://lh3.googleusercontent.com/d/1yTOIIX-MmwNfBEtFVwfx6ex-0syDEsPP',
             description: 'Exploración de los enfoques pedagógicos contemporáneos y posmodernos, con énfasis en su aplicación práctica.',
-            url_pdf: 'https://drive.google.com/uc?export=download&id=1RZdaGS7m1p1-o8rC_bUAmkxwuW3-lk4h', // Enlace estandarizado
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_18'
+            url_pdf: 'https://drive.google.com/uc?export=download&id=1RZdaGS7m1p1-o8rC_bUAmkxwuW3-lk4h',
+            url_resumen: 'https://enfoques-pedagogicos-p9v979f.gamma.site/'
         },
         {
             id: 21,
@@ -240,8 +240,8 @@ document.addEventListener('DOMContentLoaded', () => {
             genre: 'Educación, Tecnología',
             image: 'https://lh3.googleusercontent.com/d/1S0tIQndWJ6OsLlzCEJ99jFlyJGc96Gr3',
             description: 'Guía práctica sobre el uso de herramientas Google en el ámbito educativo, facilitando la integración tecnológica en el aula.',
-            url_pdf: 'https://drive.google.com/uc?export=download&id=1QPOYZjQdCk86tcI1n95HMCG6tDRKRkbg', // Enlace estandarizado
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_19'
+            url_pdf: 'https://drive.google.com/uc?export=download&id=1QPOYZjQdCk86tcI1n95HMCG6tDRKRkbg',
+            url_resumen: 'https://herramientas-google-educ-oh4fwu9.gamma.site/'
         },
         {
             id: 22,
@@ -251,8 +251,8 @@ document.addEventListener('DOMContentLoaded', () => {
             genre: 'Educación, Pedagogía',
             image: 'https://lh3.googleusercontent.com/d/1LAxHIq6CiRzAx45Qk0fve2yeNA7Vnc9R',
             description: 'Análisis de los modelos pedagógicos y teorías del aprendizaje más relevantes en la educación contemporánea, con aplicaciones prácticas.',
-            url_pdf: 'https://drive.google.com/uc?export=download&id=1A2CKyIh1IltQAtPAg2v0rlXxuJOhPrkz', // Enlace estandarizado
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_20'
+            url_pdf: 'https://drive.google.com/uc?export=download&id=1A2CKyIh1IltQAtPAg2v0rlXxuJOhPrkz',
+            url_resumen: 'https://modelos-pedagogicos-pfxoz2p.gamma.site/'
         },
         {
             id: 23,
@@ -262,8 +262,8 @@ document.addEventListener('DOMContentLoaded', () => {
             genre: 'Educación, Filosofía',
             image: 'https://lh3.googleusercontent.com/d/1RUu8CpRpUTz7wASqN67t4WOUHA7SUadT',
             description: 'Reflexiones de Paulo Freire sobre la importancia de la tolerancia en la educación y su impacto en la formación integral del individuo.',
-            url_pdf: 'https://drive.google.com/uc?export=download&id=1WwLwtfIVhz_vRM5mfcGbI_ldOQySzTTc', // Enlace estandarizado
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_21'
+            url_pdf: 'https://drive.google.com/uc?export=download&id=1WwLwtfIVhz_vRM5mfcGbI_ldOQySzTTc',
+            url_resumen: 'https://pedagogia-tolerancia-fre-iyy28ld.gamma.site/'
         },
         {
             id: 24,
@@ -273,8 +273,8 @@ document.addEventListener('DOMContentLoaded', () => {
             genre: 'Educación, Currículo',
             image: 'https://lh3.googleusercontent.com/d/13TJsdE4WlrqTuq5gAVgTJBLxTjnp4OAh',
             description: 'Enfoques y estrategias para la gestión curricular efectiva, promoviendo una educación de calidad y pertinente.',
-            url_pdf: 'https://drive.google.com/uc?export=download&id=19imIiJcfkLNMoSWMvCQ5CttXDCLCRpbD', // Enlace estandarizado
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_22'
+            url_pdf: 'https://drive.google.com/uc?export=download&id=19imIiJcfkLNMoSWMvCQ5CttXDCLCRpbD',
+            url_resumen: 'https://metodologia-gestion-curr-085hhwy.gamma.site/'
         },
         {
             id: 25,
@@ -284,8 +284,8 @@ document.addEventListener('DOMContentLoaded', () => {
             genre: 'Educación, Acompañamiento',
             image: 'https://lh3.googleusercontent.com/d/1zPI1gA7CA6v2_gaalxLL8IexVhbpdq2f',
             description: 'Estrategias y metodologías para el acompañamiento pedagógico efectivo, centrado en el desarrollo profesional docente y la mejora continua.',
-            url_pdf: 'https://drive.google.com/uc?export=download&id=1Id3ClIu5ZOqJMy-HcL8OgILzCfSxZcUH', // Enlace estandarizado
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_23'
+            url_pdf: 'https://drive.google.com/uc?export=download&id=1Id3ClIu5ZOqJMy-HcL8OgILzCfSxZcUH',
+            url_resumen: 'https://acompanamiento-pedagogic-nqfptpi.gamma.site/'
         },
         {
             id: 26,
@@ -295,8 +295,8 @@ document.addEventListener('DOMContentLoaded', () => {
             genre: 'Educación, Didáctica',
             image: 'https://lh3.googleusercontent.com/d/1Q6zg-FW8B74pxCfg8jBGAJ36iLHyuKTn',
             description: 'Guía práctica sobre la elaboración de secuencias didácticas enfocadas en el aprendizaje y evaluación de competencias en el aula.',
-            url_pdf: 'https://drive.google.com/uc?export=download&id=1QGQnUMks9X7xkwVlFFQQJ9gWkPfvBdF4', // Enlace estandarizado
-            url_resumen: 'https://gamma.app/TU_ENLACE_AQUI_24'
+            url_pdf: 'https://drive.google.com/uc?export=download&id=1QGQnUMks9X7xkwVlFFQQJ9gWkPfvBdF4',
+            url_resumen: 'https://secuencias-didacticas-gjs0gma.gamma.site/'
         }
     ];
 
